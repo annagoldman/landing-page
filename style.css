@@ -1,0 +1,205 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    font: Roboto;
+}
+
+.awesome-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 6px 32px;
+    border: none;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0px 160px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header-links-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0px;
+}
+
+.header-text-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 42px;
+    padding: 100px 0px;
+}
+
+.img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: grey;
+    padding: 100px  ;
+}
+
+
+.main {
+    color: #1F2937;
+    font-size: 36px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+
+    padding: 20px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; /* Adds 20px spacing between images */
+
+}
+
+.main-image {
+    text-align: center; /* Center-aligns the caption under the image */
+
+}
+
+.image-container {
+    display: inline-block; /* Ensure the border wraps tightly around the image */
+    border: 1px solid #3882F6; /* Add the border around the image */
+    padding: 5px; /* Optional: Add padding inside the border */
+    background-color: transparent; /* Ensure the background is transparent */
+    width: 150px; /* Set a larger width for the image box */
+    height: 150px; /* Set a larger height for the image box */
+    border-radius: 8px; /* Add rounded corners to the border */
+    overflow: hidden; /* Ensure the image respects the rounded corners */
+}
+
+.image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block; /* Remove any inline spacing below the image */
+
+}
+
+
+
+.main-image p {
+    margin-top: 10px; /* Add spacing between the image and the caption */
+    font-size: 16px; /* Adjust font size for the caption */
+    color: #1F2937; /* Optional: Set a color for the caption */
+    word-wrap: break-word; /* Ensures long words or text wrap to the next line */
+    max-width: 200px; /* Optional: Set a maximum width for the caption */
+    text-align: center; /* Center-align the caption text */
+    margin: 10px; /* Adds spacing around each image */
+
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 250px 80px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-right: 32px;
+
+}
+
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 120px 40px;
+    padding: 20px 0;
+    border-radius: 12px;
+}
+
+.action-text p {
+    font-weight: 200;
+}
+
+.action-text {
+    color: white;
+    font-weight: 700;
+
+}
+
+.action-text br + span {
+    font-weight: 100; /* Apply font weight 100 to the text after the <br> */
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 3px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 20px 0;
+}
